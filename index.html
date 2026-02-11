@@ -1,9 +1,21 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
-<body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
+  
+    <title>hCaptcha Demo</title>
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="" method="POST">
+      <input type="text" name="email" placeholder="Email" />
+      <input type="password" name="password" placeholder="Password" />
+      <div class="h-captcha" data-sitekey="e23006a0-e0d4-4b02-a3dc-930426226ac8"></div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
